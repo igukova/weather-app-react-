@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className='container'>
+       <h1>Weather App</h1>
+       <Weather/>
+         <footer>This project was coded by {""} <a href="https://github.com/igukova/" target="">Gukova Iryna</a> {""}  <a href="https://github.com/igukova/my-weather-app">Open-source code</a> </footer>
+      </div>
       </header>
     </div>
   );
